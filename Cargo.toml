@@ -1,0 +1,23 @@
+[package]
+name = "rcc"
+version = "0.1.0"
+authors = ["lauri <lauri.nomme@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "e10"
+path = "src/e10.rs"
+
+[[bin]]
+name = "e11"
+path = "src/e11.rs"
+
+[[bin]]
+name = "e2"
+path = "src/e2.rs"
+
+[[bin]]
+name = "e4"
+path = "src/e4.rs"
