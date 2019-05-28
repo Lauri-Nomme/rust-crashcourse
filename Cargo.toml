@@ -7,17 +7,41 @@ edition = "2018"
 [dependencies]
 
 [[bin]]
-name = "e10"
-path = "src/e10.rs"
+name = "l1e10"
+path = "src/l1e10.rs"
 
 [[bin]]
-name = "e11"
-path = "src/e11.rs"
+name = "l1e11"
+path = "src/l1e11.rs"
 
 [[bin]]
-name = "e2"
-path = "src/e2.rs"
+name = "l1e2"
+path = "src/l1e2.rs"
 
 [[bin]]
-name = "e4"
-path = "src/e4.rs"
+name = "l1e4"
+path = "src/l1e4.rs"
+
+[[bin]]
+name = "l2e1"
+path = "src/l2e1.rs"
+
+[[bin]]
+name = "l2c1"
+path = "src/l2c1.rs"
+
+[[bin]]
+name = "l2e2"
+path = "src/l2e2.rs"
+
+[[bin]]
+name = "l2e3"
+path = "src/l2e3.rs"
+
+[[bin]]
+name = "l2e4"
+path = "src/l2e4.rs"
+
+[[bin]]
+name = "bouncy"
+path = "src/bouncy/main.rs"
