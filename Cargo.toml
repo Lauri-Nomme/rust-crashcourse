@@ -4,7 +4,9 @@ version = "0.1.0"
 authors = ["lauri <lauri.nomme@gmail.com>"]
 edition = "2018"
 
-[dependencies]
+[dependencies.pancurses]
+version = "0.16.0"
+features = ["win32"]
 
 [[bin]]
 name = "l1e10"
@@ -45,3 +47,23 @@ path = "src/l2e4.rs"
 [[bin]]
 name = "bouncy"
 path = "src/bouncy/main.rs"
+
+[[bin]]
+name = "l3c1"
+path = "src/l3c1.rs"
+
+[[bin]]
+name = "l3e1"
+path = "src/l3e1.rs"
+
+[[bin]]
+name = "l3e3"
+path = "src/l3e3.rs"
+
+[[bin]]
+name = "bouncy-args"
+path = "src/bouncy-args/main.rs"
+
+[[bin]]
+name = "bouncy-curses"
+path = "src/bouncy-curses/main.rs"
