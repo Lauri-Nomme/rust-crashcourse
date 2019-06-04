@@ -71,3 +71,11 @@ path = "src/bouncy-curses/main.rs"
 [[bin]]
 name = "l4e2"
 path = "src/l4e2.rs"
+
+[[bin]]
+name = "l4e3"
+path = "src/l4e3.rs"
+
+[[bin]]
+name = "l4c1"
+path = "src/l4c1.rs"
