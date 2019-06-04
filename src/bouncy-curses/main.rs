@@ -119,7 +119,8 @@ fn main () {
         game.step();
         match window.getch() {
             None => {},
-            Some(input) => if input == pancurses::Input::Character('q') { break },
+            Some(pancurses::Input::Character('q')) => { break },
+            Some(_) => {},
         }
     }
 }

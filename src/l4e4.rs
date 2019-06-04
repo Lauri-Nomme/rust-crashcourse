@@ -38,8 +38,7 @@ impl<I> Doubler<I> {
 impl<I, X> Iterator for Doubler<I>
     where
         I: Iterator<Item=X>,
-        X: std::ops::Add<Output=X>,
-        X: Copy, {
+        X: std::ops::Add<Output=X> + Copy, {
     type Item = I::Item;
 
     fn next(&mut self) -> Option<Self::Item> {
