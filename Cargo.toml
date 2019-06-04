@@ -77,5 +77,9 @@ name = "l4e3"
 path = "src/l4e3.rs"
 
 [[bin]]
-name = "l4c1"
-path = "src/l4c1.rs"
+name = "l4e4"
+path = "src/l4e4.rs"
+
+[[bin]]
+name = "l4e5"
+path = "src/l4e5.rs"
